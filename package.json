@@ -1,0 +1,17 @@
+{
+  "name": "back-end-task",
+  "version": "1.0.0",
+  "description": "const express = require('express'); const app = express(); app.use(express.json()); const foodItems = [     { id: 1, name: \"Pizza\", price: 100 },     { id: 2, name: \"Burger\", price: 50 },     { id: 3, name: \"Pasta\", price: 75 }     ]; // TODO: Implement an API route to return food items app.get('/api/food', (req, res) => { // Implement this function });",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
