@@ -8,13 +8,6 @@ const foodItems = [
   { id: 3, name: "Pasta", price: 75 }
 ];
 
-
-// app.get('/api/food', (req, res) => {
-//   res.json(foodItems); 
-//   //I AM getting Cannot GET /
-//navigate to the browser and fill in endpoints
-// });
-
 app.get('/api/food', (req, res) => {
     res.status(200).json(foodItems);
   });
